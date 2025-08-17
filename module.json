@@ -1,18 +1,21 @@
 {
   "id": "ptr2e-beginner-box",
   "title": "PTR2e Beginner Adventure (PMD) - Tropical Trouble",
-  "version": "1.0.1",
+  "version": "1.1",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
+    "minimum": "13.346",
+    "verified": "13.346",
+    "maximum": "13"
   },
   "relationships": {
     "systems": [
       {
         "id": "ptr2e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "1.4.3.beta",
+          "verified": "1.4.3.beta"
+        }
       }
     ],
     "requires": [
